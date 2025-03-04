@@ -1,0 +1,49 @@
+// Theme Colors
+:root {
+  // Apple-inspired color palette
+  --background: 0 0% 100%;
+  --foreground: 240 10% 3.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 240 10% 3.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 240 10% 3.9%;
+
+  // Apple blue as primary color
+  --primary: 213 96% 50%;
+  --primary-foreground: 0 0% 100%;
+
+  // Subtle grays for secondary and muted colors
+  --secondary: 240 5% 96%;
+  --secondary-foreground: 240 10% 3.9%;
+  --muted: 240 5% 96%;
+  --muted-foreground: 240 4% 46%;
+
+  // Accent colors based on Apple's UI
+  --accent: 213 96% 50%;
+  --accent-foreground: 240 10% 3.9%;
+
+  // System colors
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 240 6% 90%;
+  --input: 240 6% 90%;
+  --ring: 213 96% 50%;
+
+  // Chart colors based on Apple's data visualization
+  --chart-1: 213 96% 50%;  // Apple Blue
+  --chart-2: 202 96% 44%;  // Lighter Blue
+  --chart-3: 262 83% 58%;  // Purple
+  --chart-4: 142 71% 45%;  // Green
+  --chart-5: 0 69% 50%;    // Red
+
+  // Border radius following Apple's modern UI
+  --radius: 0.75rem;
+}
+
+// Epoxy Background Colors
+:root {
+  --epoxy-color-1: 47, 128, 237;
+  --epoxy-color-2: 76, 110, 245;
+  --epoxy-color-dark-1: 0, 122, 255;
+  --epoxy-color-dark-2: 88, 86, 214;
+}

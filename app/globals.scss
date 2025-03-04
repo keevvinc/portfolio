@@ -1,0 +1,19 @@
+// Tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Base
+@import './styles/base/reset';
+
+// Abstracts
+@import './styles/abstracts/variables';
+
+// Themes
+@import './styles/themes/dark';
+
+// Components
+@import './styles/components/scrollbar';
+@import './styles/components/epoxy-background';
+@import './styles/components/frosted-glass';
+@import './styles/components/animations';
