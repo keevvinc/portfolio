@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.scss'
 import { Providers } from './providers'
-import Head from 'next/head'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: 'Kevin Čížik | Web Developer',
@@ -17,6 +17,7 @@ export default function RootLayout({
     <>
       <html lang="en" suppressHydrationWarning>
         <body>
+          <SpeedInsights />
           <Providers>
             {children}
           </Providers>
